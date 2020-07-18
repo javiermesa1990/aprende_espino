@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env", {
+      "useBuiltIns": "usage",
+      "corejs": 3,
+      "targets": "defaults"
+    }],
+    "@babel/preset-react",
+    "@emotion/babel-preset-css-prop"
+  ],
+  "plugins": ["@babel/plugin-transform-runtime"],
+  "sourceType": "unambiguous"
+}
